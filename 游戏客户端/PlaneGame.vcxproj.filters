@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="start.cpp" />
+    <ClCompile Include="Show.cpp" />
+    <ClCompile Include="EnemySystem.cpp">
+      <Filter>PVE</Filter>
+    </ClCompile>
+    <ClCompile Include="FightSystem.cpp">
+      <Filter>PVE</Filter>
+    </ClCompile>
+    <ClCompile Include="PVPGameManager.cpp">
+      <Filter>PVP</Filter>
+    </ClCompile>
+    <ClCompile Include="OnineConnector.cpp">
+      <Filter>PVP</Filter>
+    </ClCompile>
+    <ClCompile Include="OnlineSystem.cpp">
+      <Filter>PVP</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMap.cpp" />
+    <ClCompile Include="PlayerManager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Show.h" />
+    <ClInclude Include="EnemySystem.h">
+      <Filter>PVE</Filter>
+    </ClInclude>
+    <ClInclude Include="FightSystem.h">
+      <Filter>PVE</Filter>
+    </ClInclude>
+    <ClInclude Include="PVEGAMEManager.h">
+      <Filter>PVE</Filter>
+    </ClInclude>
+    <ClInclude Include="OnlineSystem.h">
+      <Filter>PVP</Filter>
+    </ClInclude>
+    <ClInclude Include="GAMEDefine.h" />
+    <ClInclude Include="OnineConnector.h">
+      <Filter>PVP</Filter>
+    </ClInclude>
+    <ClInclude Include="PVPGameManager.h">
+      <Filter>PVP</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMap.h" />
+    <ClInclude Include="PlayerManager.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="PVE">
+      <UniqueIdentifier>{6e5d51dc-a6ac-4a01-aff0-7bba19b651c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PVP">
+      <UniqueIdentifier>{2f1f5e87-3b2c-45a4-b983-4423ac618715}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
