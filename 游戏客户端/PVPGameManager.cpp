@@ -99,6 +99,7 @@ void start()
 	{
 		initshow(7);
 
+		Sleep(1000);
 	   char input;
 	   input = _getch();
 
@@ -109,13 +110,16 @@ void start()
 	{
 		if (gameinfo.disconnect == true)
 		{
+
 			initshow(9);
+			Sleep(1000);
 			char input;
 			input = _getch();
 		}
 		else
 		{
 			initshow(8);
+			Sleep(1000);
 			char input;
 			input = _getch();
 		}
